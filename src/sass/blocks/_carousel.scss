@@ -1,0 +1,60 @@
+.carousel {
+    padding: 81px 0;
+    .carousel__inner {
+        position: relative;
+        margin: 0 auto;
+        .carousel-block {
+            text-align: justify;
+            position: relative;
+            transform: scale(0.7);
+            opacity: 0.5;
+            transition-duration: 1.3s;
+            width: 30%;
+
+            &__img {
+                display: block;
+                width: 114px;
+                height: 114px;
+                margin: 0 auto 18px auto;
+            }
+            &__subtitle {
+                text-align: center;
+                margin-bottom: 18px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            &__descr {
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+        }
+    }
+    .slick-center {
+        transform: scale(1)!important;
+        opacity: 1!important;
+    }
+    .slick-prev, .slick-next  {
+        position: absolute;
+        top: 35px;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-100px);
+        border: none;
+        cursor: pointer;
+        z-index: 100;
+        &::before {
+            display: none;
+        }
+        img {
+            width: 14px;
+            height: 47px;
+            cursor: pointer;
+        }
+    }
+    .slick-next  {
+        right: 50%;
+        transform: translateX(100px);
+        left: auto;
+    }
+}

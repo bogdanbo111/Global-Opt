@@ -1,0 +1,46 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'base/variables';
+@import "base/mixins";
+@import 'libs/slick';
+@import 'libs/slick-theme';
+@import 'libs/animate';
+@import 'base/animations';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1, h2 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+h3 {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+@import 'blocks/menu';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/delivery';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/management';
+@import 'blocks/scheme';
+@import 'blocks/carousel';
+@import 'blocks/map';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/pageup';
+@import 'blocks/hamburger';
+@import 'blocks/media';

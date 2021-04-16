@@ -1,0 +1,11 @@
+@mixin line {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 148px;
+  background-color: #ec644b;
+  margin: 20px auto 17px auto;
+}
+@mixin padding5 {
+  padding: 0 5px;
+}

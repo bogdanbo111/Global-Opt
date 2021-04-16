@@ -1,0 +1,76 @@
+.form {
+    min-height: 438px;
+    background: url('../../img/form-bg.jpg') center (center/cover) no-repeat;
+    display: block;
+    padding-bottom: 79px;
+    padding-top: 62px;
+    text-align: center;
+    &-title {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 20px 0;
+        background-color: #25333c;
+        &__subtitle {
+            height: 14px;
+        }
+        &__descr {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-top: 5px;
+            height: 10px;
+        }
+    }
+    .send-form {
+        padding-top: 18px;
+        padding-bottom: 25px;
+        background-color: rgba(255, 255, 255, 0.7);
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            input {
+                width: 267px;
+                height: 45px;
+                border: 1px solid rgba(0, 0, 0, 0.21);
+                border-radius: 25px;
+                font-size: 14px;
+                color: #616467;
+                font-weight: 300;
+                padding: 0 20px;
+                margin-right: 5px;
+                outline: none;
+                margin-bottom: 8px;
+                &:nth-child(3) {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__comment {
+            width: 100%;
+            textarea {
+                min-height: 71px;
+                width: 763px;
+                border: 1px solid rgba(0, 0, 0, 0.21);
+                padding: 18px 25px 0 25px;
+                color: #616467;
+                font-size: 13px;
+                font-weight: 300;
+                border-radius: 10px;
+                margin-bottom: 17px;
+                box-sizing: content-box;
+                overflow: hidden;
+            }
+        }
+    }
+}
+

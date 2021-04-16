@@ -1,0 +1,70 @@
+.feed-form {
+    margin-top: -50px;
+    padding-top: 80px;
+    padding-bottom: -25px;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 24px;
+        input {
+            width: 267px;
+            height: 45px;
+            border-radius: 25px;
+            border: 1px solid #e9e9e9;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 0 20px;
+            margin-right: 5px;
+            outline: none;
+            margin-bottom: 28px;
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+        }
+    }
+    .consultation__button {
+        position: relative;
+        width: 100%;
+        &::before {
+            content: '';
+            display: block;
+            width: calc(100% / 2 - 90px);
+            max-width: 510px;
+            height: 1px;
+            background-color: #e9e9e9;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: calc(100% / 2 - 90px);
+            max-width: 510px;
+            height: 1px;
+            background-color: #e9e9e9;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .consultation_btn {
+            display: block;
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            margin-left: -80px;
+            bottom: 0;
+            margin-bottom: -20px;
+
+
+        }
+    }
+
+    &_mt25 {
+        margin-top: 25px;
+    }
+}

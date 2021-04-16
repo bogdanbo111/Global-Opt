@@ -1,0 +1,297 @@
+@media (max-width: 1200px) {
+  .header {
+    .subheader__call {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    .subheader {
+      .menu {
+        padding: 0 5px 0 5px;
+        &_item {
+          padding: 0 7px;
+        }
+        &_link {
+          font-size: 13px;
+        }
+      }
+      .button {
+        width: 120px;
+        font-size: 11px;
+      }
+    }
+    &__title {
+      &_h3 {
+        font-size: 20px;
+      }
+
+      &_h1 {
+        font-size: 56px;
+      }
+
+      &_h2 {
+        font-size: 34px;
+      }
+    }
+    &__card_descr {
+      font-size: 13px;
+    }
+  }
+  .price {
+    .col-md-3 {
+      @include padding5;
+    }
+    &__block_value {
+      font-size: 26px;
+    }
+  }
+  .form .send-form__items input {
+    width: 230px;
+  }
+  .form .send-form__comment textarea {
+    width: 80%;
+  }
+  .feed-form__wrapper input {
+    margin: 0 2px 28px 2px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    .subheader {
+      .menu {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(0,0,0, .8);
+        transition: 0.6s all;
+        z-index: 10;
+        &_active {
+          left: 0;
+        }
+        &_item {
+          padding-right: 0;
+          border: none;
+          margin: 10px 0;
+        }
+        &_link {
+          font-size: 20px;
+        }
+      }
+      .button {
+        margin-top: 40px;
+      }
+    }
+    .hamburger {
+      display: block;
+    }
+    &__title {
+      &_h3 {
+        font-size: 16px;
+      }
+
+      &_h1 {
+        font-size: 43px;
+      }
+
+      &_h2 {
+        font-size: 26px;
+      }
+    }
+    &__card {
+      margin-bottom: 18px;
+      &_img {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .advantages__wrapper {
+    margin: 15px auto;
+  }
+
+  .delivery {
+    &__wrapper {
+      margin-bottom: 26px;
+      &_img {
+        margin-bottom: 3px;
+      }
+      .delivery__subtitle {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .price {
+    &__descr {
+      font-size: 16px;
+    }
+  }
+
+  .feed-form__wrapper {
+    flex-direction: column;
+    input {
+      margin: 0;
+    }
+  }
+
+  .agent, .manage {
+    padding: 38px 0 30px 0;
+  }
+
+  .carousel .carousel__inner {
+    padding: 0 30px;
+  }
+
+  .form {
+    .send-form__items {
+      flex-direction: column;
+    }
+  }
+
+  .map {
+    &-descr {
+      width: 260px;
+      margin-top: -101px;
+      margin-left: 44px;
+      padding: 13px 12px;
+      &__triangle {
+        margin-left: -150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 5px;
+  }
+  .header {
+    .subheader {
+      .menu {
+        &_active {
+          left: 0;
+        }
+
+        &_item {
+          padding-right: 0;
+          border: none;
+          margin: 10px 0;
+        }
+
+        &_link {
+          font-size: 20px;
+        }
+      }
+
+      .button {
+        margin-top: 40px;
+      }
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    &__title {
+      margin-bottom: 15px;
+      &_h3 {
+        font-size: 15px;
+        margin-top: 20px;
+        line-height: 20px;
+      }
+
+      &_h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin: 20px 0;
+      }
+
+      &_h2 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+    &__line {
+      margin-bottom: 15px;
+    }
+
+  }
+
+  .delivery {
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .agent__descr {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .price {
+    &__block {
+      margin: 10px;
+    }
+  }
+
+  .feed-form__wrapper {
+    flex-direction: column;
+
+    input {
+      margin: 0;
+    }
+  }
+
+  .agent, .manage {
+    padding: 38px 0 30px 0;
+  }
+
+  .carousel .carousel__inner {
+    padding: 0 30px;
+  }
+
+  .form {
+    .send-form__items {
+      flex-direction: column;
+    }
+  }
+
+
+  .map {
+    &-descr {
+      width: 260px;
+      margin-top: -101px;
+      margin-left: 44px;
+      padding: 13px 12px;
+
+      &__triangle {
+        margin-left: -150px;
+      }
+    }
+  }
+
+  .consultation__round {
+    top: 147px;
+  }
+
+  .manage__descr {
+    padding: 0;
+  }
+
+  .map {
+    display: none;
+  }
+}
+
+

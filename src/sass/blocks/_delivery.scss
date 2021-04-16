@@ -1,0 +1,29 @@
+.delivery {
+  padding: 51px 0 57px 0;
+  text-align: center;
+  &__title::after {
+    @include line
+  }
+  &__text {
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 37px;
+  }
+  &__wrapper_img {
+    margin-bottom: 27px;
+    max-width: 100%;
+  }
+  &__subtitle {
+    color: #ec644b;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  &__descr {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+  }
+}
